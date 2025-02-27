@@ -42,3 +42,7 @@ def customer(request, id):
             return Response({'customer': serializer.data})
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     
+def register():
+    pass
+
+    
